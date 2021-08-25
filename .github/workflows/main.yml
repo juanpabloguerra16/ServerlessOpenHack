@@ -1,7 +1,7 @@
 name: Deploy DotNet project to function app with a Linux environment
 
 on:
-  [push]
+  push
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'juguerra10'  # set this to your application's name
